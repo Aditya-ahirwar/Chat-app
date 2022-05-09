@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 10%;
+    background-color: rgb(6, 106, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#you{
+    color: white;
+    background-color: rgb(6, 106, 6);
+    width: 50%;
+    height: 80%;
+    padding:  5px;
+    font-size: 2rem;
+    border: 0px solid rgb(6, 106, 6);
+    text-align: center;
+}
+.container{
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 6px;
+    width: 100%;
+    height: 80%;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1%;
+    overflow-y: auto;
+}
+
+.keypad{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 8%;
+}
+
+#form{
+    /* border: 2px solid pink; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#typeMsg{
+    border:  2px solid black;
+    border-radius: 6px;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    padding: 0.5%;
+}
+.btn{
+    border: 2px solid rgb(6, 106, 6);
+    border-radius: 6px;
+    width: 10%;
+    height: 80%;
+    margin: auto 2%;
+    font-size: 1.4rem;
+    background-color: rgb(6, 106, 6);
+    color: white;
+
+}
+
+.message {
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+  
+.left {
+    float: left;
+    clear: both;
+}
+  
+.right {
+    float: right;
+    clear: both;
+}
